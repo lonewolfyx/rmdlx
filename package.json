@@ -34,8 +34,7 @@
         "lint": "eslint",
         "lint:fix": "eslint --fix",
         "prepublishOnly": "pnpm build",
-        "prepare": "simple-git-hooks",
-        "test": "tsx ./src/cli.ts build -p asd --workDir 111"
+        "prepare": "simple-git-hooks"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org",
