@@ -22,7 +22,7 @@ export const resolveConfig = async (): Promise<IConfig> => {
 
     // npm/npx
     const npmCache = await getCachePath('npm', ['config', 'get', 'cache'])
-    console.log(npmCache)
+
     if (npmCache)
         caches.npm = npmCache
 
