@@ -1,7 +1,7 @@
 {
     "name": "rmdlx",
     "type": "module",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "packageManager": "pnpm@10.15.1",
     "description": "Clean up temporary cache files created by npx, pnpm dlx, vlx and related executors",
     "author": "lonewolfyx <olddrivero.king@qq.com>",
